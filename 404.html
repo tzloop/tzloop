@@ -9,10 +9,7 @@ if (src == 'https://www.cz9h.com'
     || src == 'http://cz9h.com') {
     window.location.replace('https://www.cz5h.com/?_wv=6'); 
 }else {
-    if (url.attr('host') == 'cz9h.com')
-        window.location.replace(url.attr('source').replace('cz9h.com', "www.cz5h.com"));
-    else
-        window.location.replace(url.attr('source').replace('cz9h.com', "cz5h.com"));
+    window.location.replace(url.attr('source').replace('cz9h.com', "cz5h.com"));
 }
 
 </script>
